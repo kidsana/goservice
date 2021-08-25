@@ -1,15 +1,14 @@
 package main
 import (
-    "handlers"
-    "routes"
+    "github.com/kidsana/goservice"
     "log"
     "net/http"
 )
 // init main func
 func main() {
-    router := NewRouter()
+    routes := NewRouter()
     log.Fatal(
         // start on port 3000 by default
-        http.ListenAndServe(":3000", router),
+        http.ListenAndServe(":3000", routes),
     )
 }
