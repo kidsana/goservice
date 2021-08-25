@@ -1,7 +1,7 @@
 package main
 import (
-    "handlers"
-    "routes"
+    "goservice/handler"
+    "goservice/route"
     "log"
     "net/http"
 )

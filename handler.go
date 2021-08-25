@@ -1,6 +1,6 @@
 package handler
 import (
-    //"github.com/kidsana/goservice"
+    "goservice/struct"
     "encoding/json"
     "fmt"
     "net/http"
