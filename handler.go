@@ -1,6 +1,6 @@
-package main
+package handler
 import (
-    "github.com/kidsana/goservice"
+    //"github.com/kidsana/goservice"
     "encoding/json"
     "fmt"
     "net/http"

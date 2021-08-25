@@ -1,4 +1,4 @@
-package main
+package struct
 // Basic response struct
 type BasicResponse struct {
     Error       int `json:"error"`

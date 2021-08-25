@@ -1,6 +1,7 @@
 package main
 import (
-    "github.com/kidsana/goservice"
+    "handlers"
+    "routes"
     "log"
     "net/http"
 )
