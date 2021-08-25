@@ -1,6 +1,6 @@
 package main
 import (
-    "github.com/kidsana/goservice/routes"
+    "kidsana/goservice"
     "log"
     "net/http"
 )

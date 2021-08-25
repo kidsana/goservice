@@ -1,4 +1,4 @@
-module github.com/kidsana/goservice
+module api
 
 go 1.17
 
